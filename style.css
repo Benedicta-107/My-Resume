@@ -1,6 +1,39 @@
-
-    .bg-body-tertiary {
-        --bs-bg-opacity: 1;
-        /* background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important; */
-        background-color: #ef8172;
-    }
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    
+}
+   .side{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    
+   }
+   .circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 10px ;
+   }
+   
+   a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+   }
+   hr{
+    color: orange;
+   }
